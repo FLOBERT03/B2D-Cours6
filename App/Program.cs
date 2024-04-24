@@ -11,8 +11,9 @@ namespace App
     {
         static void Main(string[] args)
         {
+            //Instantiation compte + affichage
             CompteBancaire compte = new CompteBancaire("Pierre", 100, "dollars");
-            Console.WriteLine(compte.Decrire());
+            Console.WriteLine(compte.ToString());
 
             Console.ReadKey();
         }

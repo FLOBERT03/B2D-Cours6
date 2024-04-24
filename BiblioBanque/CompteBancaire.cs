@@ -46,7 +46,9 @@ namespace BiblioBanque
         }
 
         // Renvoie la description du compte
-        public string Decrire()
+
+
+        public override string ToString()
         {
             string description = "Le solde du compte de " + titulaire + " est de " + solde + " " + devise;
             return description;
